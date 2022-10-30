@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    Background-attachment :fixed;
     Height:100%;
     Width:100%;
     
