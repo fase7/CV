@@ -1,0 +1,206 @@
+body {
+    font-family:"Comfortaa", cursive;;
+    background-image: url(../back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.header{padding: 20px;
+}
+.header  .container{
+    display: block;
+
+
+}
+
+.header .links{position: relative;
+}
+.header .links:hover .icon span:nth-child(2){
+    width: 100%}
+
+.header .links .icon {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+
+}
+.header .links .icon span{
+    background-color:#ddd;
+    margin-bottom: 5px;
+    height: 3px;
+}
+.header .links .icon span:first-child{
+    width: 100%;
+}
+.header .links .icon span:nth-child(2){
+    width: 50%;
+    transition: 0.3s;
+}
+.header .links .icon span:last-child{
+    width: 100%;
+}
+.header .links:hover ul{
+    display: block;
+}
+.header .links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6d3;
+    position:absolute;
+    left: 0;
+    min-width: 200px;
+    top: calc(100% + 15px);
+    display: none;
+
+
+}
+.header .links ul::before{
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f6f6f685 transparent;
+    position: absolute;
+    left: 5px;
+    top: -20px;
+
+
+} 
+.header .links ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+.header .links ul li a:hover {
+    padding-left: 25px;}
+
+.header .links ul li:not(last-child){
+border-bottom: 1px solid #ddd;
+
+} 
+.pic{height:20% ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border:5px solid white ;
+outline:5px solid black  ;
+border-radius: 50%;}
+
+.About{padding: 0;}
+.About p {background-color: rgba(31, 31, 31, 0.774);color: #ddd;padding: 20px;
+    border-left: 3px solid brown;
+text-transform: capitalize;
+text-align: center;}
+h2{text-align: center;color:white;text-shadow: 4px 4px 2px rgb(0, 0, 0);}
+.pers ul{background-color:rgba(31, 31, 31, 0.774);list-style-type: none;padding: 20px;
+    border-left: 3px solid brown;}
+.pers li {color: #ddd;}
+.skills{padding: 0;
+margin: 0;}
+.skills ul{background-color:  rgba(31, 31, 31, 0.774);list-style-type: none;
+    border-left: 3px solid brown;display: flex;
+flex-wrap: wrap;padding: 20px;}
+
+    .skills li img {height: 50px ;width: 50px;margin-left: auto;margin-right: auto;
+       }
+.skills li{margin-left: auto;margin-right: auto;}
+    .certification{color: aliceblue;padding:20px
+        ;height: 2%;margin: auto;text-align: center;font-size:25px;background-color:rgba(31, 31, 31, 0.774);
+        border-left: 3px solid brown;}
+    .certification ul {display: flex;list-style-type: none;}
+    .certification li {margin-right:auto ;}
+    html {
+        scroll-behavior: smooth;
+      }
+      * {box-sizing: border-box;}
+      .mySlides {display: none;}
+      img {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+
+      .contact ul{background-color: rgba(31, 31, 31, 0.774);list-style-type: none;padding: 20px;
+        border-left: 3px solid brown;}
+    .contact li {color: #ddd;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+    .pic{height:19% ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 19%;
+        border:5px solid white ;
+    outline:5px solid black  ;
+    border-radius: 50%;}
+
+
+
+}
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;}
+
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  @media(max-width:400px){
+    .skills ul {display: block;}
+    .skills li img {height: 150px;
+        width: 150px;
+        padding: 10px;}
+    .skills li {
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pic{height:40% ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        border:5px solid white ;
+    outline:5px solid black  ;
+    border-radius: 50%;}
+  }
