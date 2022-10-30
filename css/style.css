@@ -136,6 +136,9 @@ flex-wrap: wrap;padding: 20px;}
       .contact ul{background-color: rgba(31, 31, 31, 0.774);list-style-type: none;padding: 20px;
         border-left: 3px solid brown;}
     .contact li {color: #ddd;}
+.contact ul li a {text-decoration: none;
+    color: #ddd;}
+
 
 
 
