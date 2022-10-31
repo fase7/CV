@@ -7,6 +7,7 @@ body {
     Background-attachment :fixed;
     Height:100%;
     Width:100%;
+    font-size:30px
     
   }
 .header{padding: 20px;
@@ -154,6 +155,7 @@ flex-wrap: wrap;padding: 20px;}
 
 
 @media(max-width:600px){
+    body{font-size:15px}
     .pic{height:19% ;
         display: block;
         margin-left: auto;
