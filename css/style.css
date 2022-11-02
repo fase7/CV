@@ -101,7 +101,14 @@ border-radius: 50%;}
 .About p {background-color: rgba(31, 31, 31, 0.774);color: #ddd;padding: 20px;
     border-left: 3px solid brown;
 text-transform: capitalize;
-text-align: center;}
+text-align: center;width:80%;margin:auto}
+
+.About p:hover{width: 100%;}
+
+
+
+
+
 h2{text-align: center;color:white;text-shadow: 4px 4px 2px rgb(0, 0, 0);}
 .pers ul{background-color:rgba(31, 31, 31, 0.774);list-style-type: none;padding: 20px;
     border-left: 3px solid brown;}
