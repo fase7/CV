@@ -101,9 +101,9 @@ border-radius: 50%;}
 .About p {background-color: rgba(31, 31, 31, 0.774);color: #ddd;padding: 20px;
     border-left: 3px solid brown;
 text-transform: capitalize;
-text-align: center;width:80%;margin:auto;transition:0.3s}
+text-align: center;margin:auto;transition:0.3s}
 
-.About p:hover{width: 100%;}
+
 
 
 
